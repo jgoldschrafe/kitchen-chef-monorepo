@@ -1,0 +1,30 @@
+I, [2016-10-10T20:49:09.926744 #49433]  INFO -- Kitchen: -----> Starting Kitchen (v1.12.0)
+D, [2016-10-10T20:49:09.927037 #49433] DEBUG -- Kitchen: ------Exception-------
+D, [2016-10-10T20:49:09.927072 #49433] DEBUG -- Kitchen: Class: Kitchen::UserError
+D, [2016-10-10T20:49:09.927138 #49433] DEBUG -- Kitchen: Message: Kitchen YAML file /Users/jeffgoldschrafe/Development/kitchen-chef-monorepo/.kitchen.yml does not exist.
+D, [2016-10-10T20:49:09.927165 #49433] DEBUG -- Kitchen: ----------------------
+D, [2016-10-10T20:49:09.927185 #49433] DEBUG -- Kitchen: ------Backtrace-------
+D, [2016-10-10T20:49:09.927208 #49433] DEBUG -- Kitchen: /Users/jeffgoldschrafe/.chefdk/gem/ruby/2.1.0/gems/test-kitchen-1.12.0/lib/kitchen/loader/yaml.rb:74:in `read'
+D, [2016-10-10T20:49:09.927227 #49433] DEBUG -- Kitchen: /Users/jeffgoldschrafe/.chefdk/gem/ruby/2.1.0/gems/test-kitchen-1.12.0/lib/kitchen/config.rb:154:in `data'
+D, [2016-10-10T20:49:09.927247 #49433] DEBUG -- Kitchen: /Users/jeffgoldschrafe/.chefdk/gem/ruby/2.1.0/gems/test-kitchen-1.12.0/lib/kitchen/config.rb:133:in `suites'
+D, [2016-10-10T20:49:09.927278 #49433] DEBUG -- Kitchen: /Users/jeffgoldschrafe/.chefdk/gem/ruby/2.1.0/gems/test-kitchen-1.12.0/lib/kitchen/config.rb:184:in `filter_instances'
+D, [2016-10-10T20:49:09.927305 #49433] DEBUG -- Kitchen: /Users/jeffgoldschrafe/.chefdk/gem/ruby/2.1.0/gems/test-kitchen-1.12.0/lib/kitchen/config.rb:143:in `build_instances'
+D, [2016-10-10T20:49:09.927326 #49433] DEBUG -- Kitchen: /Users/jeffgoldschrafe/.chefdk/gem/ruby/2.1.0/gems/test-kitchen-1.12.0/lib/kitchen/config.rb:119:in `instances'
+D, [2016-10-10T20:49:09.927345 #49433] DEBUG -- Kitchen: /Users/jeffgoldschrafe/.chefdk/gem/ruby/2.1.0/gems/test-kitchen-1.12.0/lib/kitchen/command.rb:115:in `filtered_instances'
+D, [2016-10-10T20:49:09.927483 #49433] DEBUG -- Kitchen: /Users/jeffgoldschrafe/.chefdk/gem/ruby/2.1.0/gems/test-kitchen-1.12.0/lib/kitchen/command.rb:145:in `parse_subcommand'
+D, [2016-10-10T20:49:09.927537 #49433] DEBUG -- Kitchen: /Users/jeffgoldschrafe/.chefdk/gem/ruby/2.1.0/gems/test-kitchen-1.12.0/lib/kitchen/command/action.rb:38:in `block in call'
+D, [2016-10-10T20:49:09.927563 #49433] DEBUG -- Kitchen: /opt/chefdk/embedded/lib/ruby/2.1.0/benchmark.rb:279:in `measure'
+D, [2016-10-10T20:49:09.927585 #49433] DEBUG -- Kitchen: /Users/jeffgoldschrafe/.chefdk/gem/ruby/2.1.0/gems/test-kitchen-1.12.0/lib/kitchen/command/action.rb:37:in `call'
+D, [2016-10-10T20:49:09.927612 #49433] DEBUG -- Kitchen: /Users/jeffgoldschrafe/.chefdk/gem/ruby/2.1.0/gems/test-kitchen-1.12.0/lib/kitchen/cli.rb:56:in `perform'
+D, [2016-10-10T20:49:09.927634 #49433] DEBUG -- Kitchen: /Users/jeffgoldschrafe/.chefdk/gem/ruby/2.1.0/gems/test-kitchen-1.12.0/lib/kitchen/cli.rb:185:in `block (2 levels) in <class:CLI>'
+D, [2016-10-10T20:49:09.927654 #49433] DEBUG -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/thor-0.19.1/lib/thor/command.rb:27:in `run'
+D, [2016-10-10T20:49:09.927673 #49433] DEBUG -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/thor-0.19.1/lib/thor/invocation.rb:126:in `invoke_command'
+D, [2016-10-10T20:49:09.927692 #49433] DEBUG -- Kitchen: /Users/jeffgoldschrafe/.chefdk/gem/ruby/2.1.0/gems/test-kitchen-1.12.0/lib/kitchen/cli.rb:326:in `invoke_task'
+D, [2016-10-10T20:49:09.927746 #49433] DEBUG -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/thor-0.19.1/lib/thor.rb:359:in `dispatch'
+D, [2016-10-10T20:49:09.927780 #49433] DEBUG -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/thor-0.19.1/lib/thor/base.rb:440:in `start'
+D, [2016-10-10T20:49:09.927800 #49433] DEBUG -- Kitchen: /Users/jeffgoldschrafe/.chefdk/gem/ruby/2.1.0/gems/test-kitchen-1.12.0/bin/kitchen:13:in `block in <top (required)>'
+D, [2016-10-10T20:49:09.927820 #49433] DEBUG -- Kitchen: /Users/jeffgoldschrafe/.chefdk/gem/ruby/2.1.0/gems/test-kitchen-1.12.0/lib/kitchen/errors.rb:174:in `with_friendly_errors'
+D, [2016-10-10T20:49:09.927839 #49433] DEBUG -- Kitchen: /Users/jeffgoldschrafe/.chefdk/gem/ruby/2.1.0/gems/test-kitchen-1.12.0/bin/kitchen:13:in `<top (required)>'
+D, [2016-10-10T20:49:09.927871 #49433] DEBUG -- Kitchen: /Users/jeffgoldschrafe/.chefdk/gem/ruby/2.1.0/bin/kitchen:22:in `load'
+D, [2016-10-10T20:49:09.927906 #49433] DEBUG -- Kitchen: /Users/jeffgoldschrafe/.chefdk/gem/ruby/2.1.0/bin/kitchen:22:in `<main>'
+D, [2016-10-10T20:49:09.927927 #49433] DEBUG -- Kitchen: ----End Backtrace-----
